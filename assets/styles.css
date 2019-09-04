@@ -1,0 +1,18 @@
+body{
+  background-color:#FAFAFF;
+  font-family:arial,sans-serif;
+}
+h1{text-align: center; font-size:75px;}
+h1,h2{
+  color:#273469;
+  background-color:#E4D9FF;
+}
+a{
+  color:#1E2749;
+}
+a:hover {
+  color:#B599FF;
+}
+blockquote{
+  color:#30343F;
+}
