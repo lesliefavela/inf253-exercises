@@ -16,3 +16,7 @@ a:hover {
 blockquote{
   color:#30343F;
 }
+img{
+  max-width: 100%;
+  max-height: auto;
+}
