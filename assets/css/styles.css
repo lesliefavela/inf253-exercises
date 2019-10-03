@@ -2,7 +2,15 @@ body{
   background-color:#F7F7F7;
   font-family:arial,sans-serif;
 }
-header{text-align: center; font-size:75px; background-color:#F2E3F9;}
+/*I still have mixed feelings about this header...I think I might take it out
+  entirely and replace with a logo attached to the navbar or just include the
+  title in the navbar instead*/
+header{text-align:center;
+  font-size:70px;
+  background-color:#F2E3F9;
+  padding:5px;
+  letter-spacing:3px;}
+/*Colors for overall webpage is a cool purple palette*/
 h1,h2,h3{
   color:#342977;
 }
@@ -32,11 +40,11 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
 li a:hover:not(.active) {
   background-color: #fff;
 }
-
+/*Made nav-bar change colour when hovering over to help out with the contrast
+  again also includes some purple to go with overall purpley theme*/
 .active {
   background-color: #4CAF50;
 }
@@ -71,6 +79,7 @@ blockquote{
   font-style:italic;
   margin-top: .25em;
 }
+/*alined images center like the paragraph text*/
 .image{
   text-align:center;
   margin: 2em 0;
@@ -78,6 +87,8 @@ blockquote{
 p{
   line-height:1.4em;
 }
+/*Made images enlarge when you hover over them revealing the caption too;
+also helps with proximity of the images...and it looks cool*/
 .image {
   transition: 0.4s cubic-bezier(1, -1, 0, 2);
   clip-path: inset(16% 0 21% 0);
