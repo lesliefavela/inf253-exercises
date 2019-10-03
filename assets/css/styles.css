@@ -59,7 +59,8 @@ blockquote{
 }
 img{
   max-width: 100%;
-  max-height: auto;
+  max-height: 100%;
+  padding: 5px;
 }
 .wrapper{
   background:#ffffff;
