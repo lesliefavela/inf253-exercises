@@ -6,12 +6,12 @@ body{
   entirely and replace with a logo attached to the navbar or just include the
   title in the navbar instead*/
 header{text-align:center;
-  font-size:70px;
-  background-color:#F2E3F9;
+  font-size:40px;
+  background-image:url(../images/greek-vase.png);
   padding:5px;
   letter-spacing:3px;}
 /*Colors for overall webpage is a cool purple palette*/
-h1,h2,h3{
+header,h1,h2,h3{
   color:#342977;
 }
 h1{
@@ -95,4 +95,20 @@ also helps with proximity of the images...and it looks cool*/
 }
 .image:hover {
   clip-path:inset(0 0 0 0);
+}
+
+footer{
+  text-align: center;
+  padding: 12px 40px;
+  border-top: 2px solid #d2d2d2;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  header{
+    background-image:none;
+    font-size:15px;
+  }
+  li{float:none;}
+
 }
