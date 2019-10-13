@@ -102,7 +102,23 @@ footer{
   padding: 12px 40px;
   border-top: 2px solid #d2d2d2;
 }
-
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+aside > p {
+    margin: .5rem;
+}
+article{
+  float:right;
+  display:block;
+  width:25%;
+}
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
   header{
