@@ -117,7 +117,7 @@ aside{
   width:25%;
   background-color: #F7F7F7;
   border-radius: 25px;
-  padding: 5px; 
+  padding: 5px;
 }
 aside h3:first-child{
   margin-top: 14px;
@@ -130,5 +130,11 @@ aside h3:first-child{
     font-size:15px;
   }
   li{float:none;}
-
+  .image {
+    transition: none;
+    clip-path: none;
+  }
+  .image:hover {
+    clip-path:none;
+  }
 }
