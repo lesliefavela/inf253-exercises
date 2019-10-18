@@ -1,0 +1,130 @@
+body{
+  background-color:#F7F7F7;
+  font-family:arial,sans-serif;
+}
+/*I still have mixed feelings about this header...I think I might take it out
+  entirely and replace with a logo attached to the navbar or just include the
+  title in the navbar instead*/
+header{text-align:center;
+  font-size:40px;
+  background-image:url(../images/greek-vase.png);
+  padding:5px;
+  letter-spacing:3px;}
+/*Colors for overall webpage is a cool purple palette*/
+header,h1,h2,h3{
+  color:#342977;
+}
+h1{
+  margin-bottom:.5em;
+}
+h2{
+  margin-bottom:.25em;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #654872;
+  margin-top 8px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #fff;
+}
+/*Made nav-bar change colour when hovering over to help out with the contrast
+  again also includes some purple to go with overall purpley theme*/
+.active {
+  background-color: #4CAF50;
+}
+a{
+  color:#1E2749;
+}
+a:hover {
+  color:#B599FF;
+}
+blockquote{
+  color:#30343F;
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+  padding: 5px;
+}
+.wrapper{
+  background:#ffffff;
+  width:92%;
+  max-width:800px;
+  margin:0 auto;
+  padding: 12px 20px;
+}
+blockquote{
+  border-left:4px solid #F2E3F9;
+  padding: 12px;
+  background:#f9f9f9;
+  margin-left:0;
+}
+.caption{
+  font-style:italic;
+  margin-top: .25em;
+}
+/*alined images center like the paragraph text*/
+.image{
+  text-align:center;
+  margin: 2em 0;
+}
+p{
+  line-height:1.4em;
+}
+/*Made images enlarge when you hover over them revealing the caption too;
+also helps with proximity of the images...and it looks cool*/
+.image {
+  transition: 0.4s cubic-bezier(1, -1, 0, 2);
+  clip-path: inset(16% 0 21% 0);
+}
+.image:hover {
+  clip-path:inset(0 0 0 0);
+}
+
+footer{
+  text-align: center;
+  padding: 12px 40px;
+  border-top: 2px solid #d2d2d2;
+}
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+aside > p {
+    margin: .5rem;
+}
+article{
+  float:right;
+  display:block;
+  width:25%;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  header{
+    background-image:none;
+    font-size:15px;
+  }
+  li{float:none;}
+
+}
