@@ -11,8 +11,10 @@ body{
 header{text-align:center;
   font-size:40px;
   background-image:url(../images/greek-vase.png);
-  padding:5px;
-  letter-spacing:3px;}
+  padding:40px 20px;
+  letter-spacing:3px;
+}
+
 /*Colors for overall webpage is a cool purple palette*/
 header,h1,h2,h3{
   color:#342977;
@@ -46,6 +48,9 @@ li a {
 li a:hover:not(.active) {
   background-color: #fff;
 }
+h1#page-title{
+  margin:0;
+}
 /*Made nav-bar change colour when hovering over to help out with the contrast
   again also includes some purple to go with overall purpley theme*/
 .active {
@@ -68,7 +73,7 @@ img{
 .wrapper{
   background:#ffffff;
   width:92%;
-  max-width:800px;
+  max-width:900px;
   margin:0 auto;
   padding: 12px 20px;
 }
@@ -82,9 +87,17 @@ blockquote{
   font-style:italic;
   margin-top: .25em;
 }
+#btn-group{
+  margin-left:10px;
+}
+footer{
+  background-color:#654872;
+  color:#fff;
+  padding:10px;
+  text-align:center;
+}
 /*alined images center like the paragraph text*/
 .image{
-  text-align:center;
   margin: 2em 0;
 }
 p{
@@ -92,6 +105,7 @@ p{
 }
 /*Made images enlarge when you hover over them revealing the caption too;
 also helps with proximity of the images...and it looks cool*/
+/*
 .image {
   transition: 0.4s cubic-bezier(1, -1, 0, 2);
   clip-path: inset(16% 0 21% 0);
@@ -104,30 +118,24 @@ footer{
   text-align: center;
   padding: 12px 40px;
   border-top: 2px solid #d2d2d2;
-}
+}*/
 @media all and (min-width: 920px){
 article, aside{
   float: right;
 }
-article{
-  width:75%;
-  padding-left: 20px;
-}
 aside{
-  width:25%;
+  height:60%;
   background-color: #F7F7F7;
   border-radius: 25px;
-  padding: 5px;
-}
-aside h3:first-child{
-  margin-top: 14px;
+  padding: 10px;
 }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
   header{
     background-image:none;
-    font-size:15px;
+    font-size:10px;
+    padding:5px;
   }
   li{float:none;}
   .image {
@@ -136,5 +144,8 @@ aside h3:first-child{
   }
   .image:hover {
     clip-path:none;
+  }
+  article{
+    padding-top:15px;
   }
 }
