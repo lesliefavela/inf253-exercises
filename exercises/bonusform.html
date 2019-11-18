@@ -116,8 +116,50 @@
         <p>Atqui causae gloriatur ius te, id agam omnis evertitur eum.
           Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
         </p>
-    </div>
 
+    <form>
+      <div class="form-group">
+        <label for="InputName">Name</label>
+        <input type="name" class="form-control" id="InputName" placeholder="Name">
+      </div>
+      <div class="form-group">
+        <label for="inputEmail">Email Address</label>
+        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+      </div>
+      <fieldset>
+        <legend>Select your favorite color:</legend>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="red">
+            <label class="form-check-label" for="red">Red</label>
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="blue">
+            <label class="form-check-label" for="blue">Blue</label>
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="green">
+            <label class="form-check-label" for="green">Green</label>
+          </div>
+        </fieldset>
+        <fieldset class="radiogroup">
+        <legend>Favorite Animal:</legend>
+        <div class="radio">
+          <label><input type="radio" name="dog">Dogs</label>
+        </div>
+        <div class="radio">
+          <label><input type="radio" name="cat">Cats</label>
+        </div>
+        <div class="radio">
+          <label><input type="radio" name="alpaca">Alpacas</label>
+        </div>
+      </fieldset><br>
+      <div class="form-group">
+        <label for="textArea">Comments</label>
+        <textarea class="form-control" id="textArea" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    </div>
   </main>
   <footer id="footer">
     Copyright 2019 &copy;
